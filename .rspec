@@ -1,3 +1,29 @@
---color
---format documentation
---require spec_helper
+greeting = "Welcome to Tic Tac Toe!"
+
+puts greeting
+
+space_board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
+def display_board(space_board)
+  puts " #{space_board[0]} |  #{space_board[1]} | #{space_board[2]} "
+  puts "-----------"      
+  puts " #{space_board[3]} |  #{space_board[4]} | #{space_board[5]} "
+  puts "-----------"   
+  puts " #{space_board[6]} |  #{space_board[7]} | #{space_board[8]} "
+end
+
+puts display_board(space_board)
+
+puts "Have fun!"
+
+x[4] = "X"
+
+puts display_board(x)
+
+
+
+
+
+
+   
+   

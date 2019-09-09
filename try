@@ -1,0 +1,8 @@
+x = "Patrick"
+
+puts "Hello #{x}"
+
+x = "Chelsea"
+
+puts "Hello #{2+4}"
+

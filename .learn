@@ -1,7 +1,6 @@
-tags:
-  - variables
-  - arrays
-  - tictactoe
-languages:
-  - ruby
-resources: 0
+board = [" "," "," "," "," "," "," "," "," "]
+
+board[4] = "X"
+
+puts board
+
